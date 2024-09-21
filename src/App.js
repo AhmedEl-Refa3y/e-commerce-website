@@ -23,10 +23,12 @@ import UserAllAddresPage from "./Page/User/UserAllAddresPage";
 import UserAddAddressPage from "./Page/User/UserAddAddressPage";
 import UserEditAddressPage from "./Page/User/UserEditAddressPage";
 import UserProfilePage from "./Page/User/UserProfilePage";
+
 function App() {
   return (
     <div className="font">
       <NavBarLogin />
+      {/* Use BrowserRouter here instead of Router */}
       <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />} />
